@@ -1,0 +1,25 @@
+{
+  "name": "@imdt-os/build-react-from-ng",
+  "version": "1.0.5",
+  "description": "Allow the usage of ng script to build react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "if [ -d ../../.bin/ ] ; then echo bin dir already exists; else echo creating bin dir; mkdir ../../.bin/; fi ; cp ng-build-react.sh ../../.bin/ng ; chmod 755 ../../.bin/ng"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMDT/build-react-from-ng.git"
+  },
+  "keywords": [
+    "react",
+    "ng",
+    "build"
+  ],
+  "author": "iMDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iMDT/build-react-from-ng/issues"
+  },
+  "homepage": "https://github.com/iMDT/build-react-from-ng#readme"
+}
