@@ -1,6 +1,6 @@
 {
   "name": "@imdt-os/build-react-from-ng",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Allow the usage of ng script to build react project",
   "main": "index.js",
   "scripts": {

@@ -42,8 +42,8 @@ npm run-script build
 
 set +e
 echo "Copying ..."
-rm -rf dist/ &> /dev/null
-mkdir dist/
+mkdir dist/ &> /dev/null
+rm -rf $outputPath &> /dev/null
 
 set -e
 mv build $outputPath
